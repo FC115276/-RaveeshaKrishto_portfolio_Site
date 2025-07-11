@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Raveesha Krishto | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Raveesha<span>Krishto</span></h1>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#activities">Extra-Curricular</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Wrap all main content except modals in this div -->
+  <div id="main-content">
+
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1>Hi, It's <span>Raveesha</span></h1>
+        <h3 class="animated-subheading">I am Web Developer</h3>
+        <p>
+          <p>I’m an undergraduate student at the University of Sri Jayewardenepura, pursuing a Bachelor of Computing (Hons) in Computer Science. My main passion lies in web development, where I enjoy creating modern, responsive, and interactive websites using HTML, CSS, JavaScript, and React.</p> 
+          <p>I love exploring creative web technologies to build user-friendly and visually appealing websites. I also enjoy working with digital design tools like Canva to enhance web and social media content.Besides web development, I have a strong interest in Artificial Intelligence and Game Development, and I’ve explored tools like Unity, Unreal Engine, and AI-based platforms to build smart and engaging systems.I’m always eager to learn, improve my skills, and take on new challenges. My goal is to become a creative developer who blends code, design, and intelligence to craft meaningful digital experiences.</p>
+        </p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="buttons">
+          <a href="#">Hire Me</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <div class="circle-img">
+          <img src="assert/raveesha.jpg" alt="Raveesha" />
+        </div>
+      </div>
+    </section>
+
+    <section class="education-section" id="education">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-entry">
+          <div class="content">
+            <h3>University</h3>
+            <p>Currently studying Bachelor of Computing (Hons) in Computer Science at the University of Sri Jayewardenepura.</p>
+            <p>Main focus areas:</p>
+            <p>-->Programming: Java, C++</p>
+            <p>-->Web Development: HTML, CSS, JavaScript, PHP</p>
+            <p>I'm gaining strong practical and theoretical knowledge in building digital solutions and websites.</p>
+          </div>
+          <div class="year">2025</div>
+        </div>
+        <div class="timeline-entry">
+          <div class="content">
+            <h3>G.C.E. Advanced Level (A/L)</h3>
+            <p>I studied in the Physical Science stream.
+            <p>Results:</p>
+            <p>Chemistry – A</p>
+            <p>Combined Mathematics – B</p>
+            <p>Physics – C</p>
+            <p>These results reflect my interest and ability in analytical and problem-solving subjects..</p>
+          </div>
+          <div class="year"> 2022/23</div>
+        </div>
+        <div class="timeline-entry">
+          <div class="content">
+            <h3>G.C.E. Ordinary Level (O/L)</h3>
+            <p>I passed all 9 subjects with A grades, including ICT and Commerce, showing strong performance in both technical and business-related subjects.</p>
+          </div>
+          <div class="year"> 2019</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="project-box" onclick="openModal('modal1')">
+          <h3>Academic Advising System</h3>
+          <p>Web system to book appointments with academic advisors easily.</p>
+        </div>
+        <div class="project-box" onclick="openModal('modal2')">
+          <h3>Pet Care Website</h3>
+          <p>Veterinary clinic website with sections like services and booking.</p>
+        </div>
+        <div class="project-box" onclick="openModal('modal3')">
+          <h3>Hotel Booking Platform</h3>
+          <p>Online platform to search and book hotel rooms with payment options.</p>
+        </div>
+        <div class="project-box" onclick="openModal('modal4')">
+          <h3>Personal Portfolio</h3>
+          <p>Modern responsive portfolio website to showcase my skills and projects.</p>
+        </div>
+        <div class="project-box" onclick="openModal('modal5')">
+          <h3>Quiz Application</h3>
+          <p>Interactive quiz app with timer, score, and multiple question categories.</p>
+        </div>
+        <div class="project-box" onclick="openModal('modal6')">
+          <h3>Weather Dashboard</h3>
+          <p>Web app to display real-time weather info using public APIs.</p>
+        </div>
+      </div>
+      <!-- Project Modals -->
+      <div id="modal1" class="modal-overlay">
+        <div class="modal-box">
+          <span class="close-btn" onclick="closeModal('modal1')">&times;</span>
+          <h2>Academic Advising Appointment System</h2>
+          <p><strong>Objectives:</strong></p>
+          <ul>
+            <li>Streamline booking process for students and advisors</li>
+            <li>Connect students with the right advisor</li>
+            <li>Support student academic development</li>
+            <li>Improve efficiency and record-keeping</li>
+          </ul>
+          <p><strong>Main Features:</strong></p>
+          <ul>
+            <li>Student & Advisor Login/Signup</li>
+            <li>Booking Dashboard with availability</li>
+            <li>Data stored securely with MySQL</li>
+          </ul>
+          <p><strong>Tools:</strong> HTML, CSS, JS, PHP, MySQL, Figma</p>
+          <p><strong>Work Plan:</strong> 4-stage development: proposal, frontend, backend, testing</p>
+        </div>
+      </div>
+      <div id="modal2" class="modal-overlay">
+        <div class="modal-box">
+          <span class="close-btn" onclick="closeModal('modal2')">&times;</span>
+          <h2>Pet Care Veterinary Clinic Website</h2>
+          <p><strong>Pages:</strong> Home, Services, Dog Hostel, About, Reviews, Contact</p>
+          <p><strong>Features:</strong></p>
+          <ul>
+            <li>Navigation bar, footer, Google Maps, Image sprite icons</li>
+            <li>Dog hostel booking form with validation</li>
+            <li>Interactive buttons, hover effects</li>
+          </ul>
+          <p>Paragraphs and reviews added for realistic content. Each page loads in the same tab.</p>
+        </div>
+      </div>
+      <div id="modal3" class="modal-overlay">
+        <div class="modal-box">
+          <span class="close-btn" onclick="closeModal('modal3')">&times;</span>
+          <h2>Online Hotel Room Booking Platform</h2>
+          <p><strong>Goal:</strong> Allow users to book hotel rooms based on location, budget, and preferences.</p>
+          <p><strong>Key Features:</strong></p>
+          <ul>
+            <li>Map, login, hotel info, room booking</li>
+            <li>Payment & confirmation with invoice</li>
+            <li>Admin panel, user reviews, multi-currency</li>
+          </ul>
+          <p><strong>Advance Payment Rules:</strong></p>
+          <ul>
+            <li>More than 30 days: 20%</li>
+            <li>30-20 days: 50%</li>
+            <li>Less than 20 days: 100%</li>
+          </ul>
+          <p><strong>Refund Policy:</strong> Ranges from 80% to 0% depending on days left before check-in</p>
+        </div>
+      </div>
+      <div id="modal4" class="modal-overlay">
+        <div class="modal-box">
+          <span class="close-btn" onclick="closeModal('modal4')">&times;</span>
+          <h2>Personal Portfolio Website</h2>
+          <p><strong>Description:</strong> A modern, responsive portfolio site to showcase my web development skills, projects, and contact info.</p>
+          <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+          <p><strong>Features:</strong> Responsive design, smooth scrolling, contact form, project gallery.</p>
+        </div>
+      </div>
+      <div id="modal5" class="modal-overlay">
+        <div class="modal-box">
+          <span class="close-btn" onclick="closeModal('modal5')">&times;</span>
+          <h2>Quiz Application</h2>
+          <p><strong>Description:</strong> Web-based quiz app with timer and multiple categories.</p>
+          <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+          <p><strong>Features:</strong> Multiple choice, scoring, timer, category selection.</p>
+        </div>
+      </div>
+      <div id="modal6" class="modal-overlay">
+        <div class="modal-box">
+          <span class="close-btn" onclick="closeModal('modal6')">&times;</span>
+          <h2>Weather Dashboard</h2>
+          <p><strong>Description:</strong> Real-time weather dashboard using public weather APIs.</p>
+          <p><strong>Tech:</strong> HTML, CSS, JavaScript, API integration</p>
+          <p><strong>Features:</strong> City search, current weather, forecast, responsive UI.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="activities-section" id="activities">
+      <h2>Extra-Curricular Activities</h2>
+      <div class="icon-section">
+        <div class="icon-box" data-activity="eduacs">
+          <div class="icon-circle"><i class="fas fa-chalkboard-teacher"></i></div>
+          <h3 style="color: var(--main-color); margin-bottom: 10px;">EduACS1.0</h3>
+          <p>Member of the Finance & Coordinating Panel of EduACS 1.0.  
+          Contributed to the success of the event through planning and teamwork, 
+          organized by the Association of Computing Students, University of Sri Jayewardenepura.</p>
+        </div>
+        <div class="icon-box" data-activity="volleyball">
+          <div class="icon-circle"><i class="fas fa-volleyball-ball"></i></div>
+          <h3 style="color: var(--main-color); margin-bottom: 10px;">Volleyball</h3>
+          <p>Captain of the Ananda Sastralaya, Mathugama school volleyball team during 2017/18.  
+          Led the team with dedication and sportsmanship.</p>
+        </div>
+        <div class="icon-box" data-activity="wrestling">
+          <div class="icon-circle"><i class="fas fa-dumbbell"></i></div>
+          <h3 style="color: var(--main-color); margin-bottom: 10px;">Wrestling</h3>
+          <p>Active player on the University wrestling team.  
+          Regularly participates in training and university-level competitions.</p>
+        </div>
+        <div class="icon-box" data-activity="youthclub">
+          <div class="icon-circle"><i class="fas fas fa-users"></i></div>
+          <h3 style="color: var(--main-color); margin-bottom: 10px;">Youth Club</h3>
+          <p>Active member of the Kalutara District Youth Club since 2013.  
+          Engaged in youth leadership, social events, and community service.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials-section" id="testimonials">
+      <h2>Testimonials</h2>
+      <div class="testimonials-container">
+        <div class="testimonial-card" data-testimonial="1">
+          <img class="profile-img" src="assert/tharindu.png" alt="Tharindu">
+          <div class="testimonial-name">Tharindu Thilakarathna</div>
+          <div class="testimonial-position">Web Developer and project group leader</div>
+          <div class="stars">★★★★★</div>
+          <div class="testimonial-text">
+            "Raveesha is a talented web developer with excellent leadership and teamwork skills. As our project group leader, he stayed focused, helpful, and well-organized. He clearly guided the team, supported everyone, and kept us on track to meet deadlines. His commitment and smart ideas made the project a success."
+          </div>
+        </div>
+        <div class="testimonial-card" data-testimonial="2">
+          <img class="profile-img" src="assert/vihaga.png" alt="Vihanga">
+          <div class="testimonial-name">Vihanga Rathnayake</div>
+          <div class="testimonial-position">Project Chair EduAcs 1.0</div>
+          <div class="stars">★★★★★</div>
+          <div class="testimonial-text">
+            "Raveesha was a key member of the coordinating panel in the EduAcs 1.0 project. He showed strong teamwork, communication, and problem-solving skills. He helped organize project tasks, supported others, and ensured timely work. His dedication and efforts made a big difference in the success of the overall project."
+          </div>
+        </div>
+        <div class="testimonial-card" data-testimonial="3">
+          <img class="profile-img" src="assert/nuwan.png" alt="Nuwan">
+          <div class="testimonial-name">Nuwan Perera</div>
+          <div class="testimonial-position">Senior Software Engineer</div>
+          <div class="stars">★★★★★</div>
+          <div class="testimonial-text">
+            "Raveesha is dedicated, creative, and always eager to learn new technologies. He quickly adapts to new challenges and consistently delivers high-quality work. His positive attitude and technical skills make him a valuable team member."
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-form-wrapper">
+        <form class="contact-form" autocomplete="off">
+          <div class="contact-left">
+            <input class="contact-input" type="text" placeholder="Full Name" required>
+            <input class="contact-input" type="email" placeholder="Email" required>
+            <input class="contact-input" type="tel" placeholder="Phone Number">
+            <input class="contact-input" type="text" placeholder="Subject">
+          </div>
+          <div class="contact-right">
+            <textarea class="contact-textarea" placeholder="Your Message" required></textarea> 
+          </div>
+          <button class="contact-btn" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="footer-icons">
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="footer-nav">
+        <a href="#">FAQ</a>
+        <a href="#">Services</a>
+        <a href="#">About Me</a>
+        <a href="#contact">Contact</a>
+        <a href="#">Testimonials</a>
+      </div>
+      <div class="footer-copy">
+        &copy; Raveesha Krishto | All Rights Reserved
+      </div>
+    </footer>
+
+  </div> <!-- end main-content -->
+
+  <!-- Project Modals (as previously provided) -->
+  <div id="modal1" class="modal-overlay">
+    <div class="modal-box">
+      <span class="close-btn" onclick="closeModal('modal1')">&times;</span>
+      <h2>Academic Advising Appointment System</h2>
+      <p><strong>Objectives:</strong></p>
+      <ul>
+        <li>Streamline booking process for students and advisors</li>
+        <li>Connect students with the right advisor</li>
+        <li>Support student academic development</li>
+        <li>Improve efficiency and record-keeping</li>
+      </ul>
+      <p><strong>Main Features:</strong></p>
+      <ul>
+        <li>Student & Advisor Login/Signup</li>
+        <li>Booking Dashboard with availability</li>
+        <li>Data stored securely with MySQL</li>
+      </ul>
+      <p><strong>Tools:</strong> HTML, CSS, JS, PHP, MySQL, Figma</p>
+      <p><strong>Work Plan:</strong> 4-stage development: proposal, frontend, backend, testing</p>
+    </div>
+  </div>
+  <div id="modal2" class="modal-overlay">
+    <div class="modal-box">
+      <span class="close-btn" onclick="closeModal('modal2')">&times;</span>
+      <h2>Pet Care Veterinary Clinic Website</h2>
+      <p><strong>Pages:</strong> Home, Services, Dog Hostel, About, Reviews, Contact</p>
+      <p><strong>Features:</strong></p>
+      <ul>
+        <li>Navigation bar, footer, Google Maps, Image sprite icons</li>
+        <li>Dog hostel booking form with validation</li>
+        <li>Interactive buttons, hover effects</li>
+      </ul>
+      <p>Paragraphs and reviews added for realistic content. Each page loads in the same tab.</p>
+    </div>
+  </div>
+  <div id="modal3" class="modal-overlay">
+    <div class="modal-box">
+      <span class="close-btn" onclick="closeModal('modal3')">&times;</span>
+      <h2>Online Hotel Room Booking Platform</h2>
+      <p><strong>Goal:</strong> Allow users to book hotel rooms based on location, budget, and preferences.</p>
+      <p><strong>Key Features:</strong></p>
+      <ul>
+        <li>Map, login, hotel info, room booking</li>
+        <li>Payment & confirmation with invoice</li>
+        <li>Admin panel, user reviews, multi-currency</li>
+      </ul>
+      <p><strong>Advance Payment Rules:</strong></p>
+      <ul>
+        <li>More than 30 days: 20%</li>
+        <li>30-20 days: 50%</li>
+        <li>Less than 20 days: 100%</li>
+      </ul>
+      <p><strong>Refund Policy:</strong> Ranges from 80% to 0% depending on days left before check-in</p>
+    </div>
+  </div>
+  <div id="modal4" class="modal-overlay">
+    <div class="modal-box">
+      <span class="close-btn" onclick="closeModal('modal4')">&times;</span>
+      <h2>Personal Portfolio Website</h2>
+      <p><strong>Description:</strong> A modern, responsive portfolio site to showcase my web development skills, projects, and contact info.</p>
+      <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+      <p><strong>Features:</strong> Responsive design, smooth scrolling, contact form, project gallery.</p>
+    </div>
+  </div>
+  <div id="modal5" class="modal-overlay">
+    <div class="modal-box">
+      <span class="close-btn" onclick="closeModal('modal5')">&times;</span>
+      <h2>Quiz Application</h2>
+      <p><strong>Description:</strong> Web-based quiz app with timer and multiple categories.</p>
+      <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+      <p><strong>Features:</strong> Multiple choice, scoring, timer, category selection.</p>
+    </div>
+  </div>
+  <div id="modal6" class="modal-overlay">
+    <div class="modal-box">
+      <span class="close-btn" onclick="closeModal('modal6')">&times;</span>
+      <h2>Weather Dashboard</h2>
+      <p><strong>Description:</strong> Real-time weather dashboard using public weather APIs.</p>
+      <p><strong>Tech:</strong> HTML, CSS, JavaScript, API integration</p>
+      <p><strong>Features:</strong> City search, current weather, forecast, responsive UI.</p>
+    </div>
+  </div>
+
+  <!-- Extra-Curricular Activities modals (as previously provided) -->
+  <div id="modal-eduacs" class="activity-modal-overlay">
+    <div class="activity-modal">
+      <span class="close-btn" onclick="closeActivityModal()">&times;</span>
+      <h3>EduACS1.0</h3>
+      <p>Member of the Finance & Coordinating Panel of EduACS 1.0. Contributed to the success of the event through planning and teamwork, organized by the Association of Computing Students, University of Sri Jayewardenepura.</p>
+    </div>
+  </div>
+  <div id="modal-volleyball" class="activity-modal-overlay">
+    <div class="activity-modal">
+      <span class="close-btn" onclick="closeActivityModal()">&times;</span>
+      <h3>Volleyball</h3>
+      <p>Captain of the Ananda Sastralaya, Mathugama school volleyball team during 2017/18. Led the team with dedication and sportsmanship.</p>
+    </div>
+  </div>
+  <div id="modal-wrestling" class="activity-modal-overlay">
+    <div class="activity-modal">
+      <span class="close-btn" onclick="closeActivityModal()">&times;</span>
+      <h3>Wrestling</h3>
+      <p>Active player on the University wrestling team. Regularly participates in training and university-level competitions.</p>
+    </div>
+  </div>
+  <div id="modal-youthclub" class="activity-modal-overlay">
+    <div class="activity-modal">
+      <span class="close-btn" onclick="closeActivityModal()">&times;</span>
+      <h3>Youth Club</h3>
+      <p>Active member of the Kalutara District Youth Club since 2013. Engaged in youth leadership, social events, and community service.</p>
+    </div>
+  </div>
+
+  <!-- Testimonial modals (as provided in previous response, now fully integrated) -->
+  <div id="testimonial-modal-1" class="testimonial-modal-overlay">
+    <div class="testimonial-modal">
+      <span class="close-btn" onclick="closeTestimonialModal()">&times;</span>
+      <img class="profile-img" src="assert/tharindu.png" alt="Tharindu">
+      <h3>Tharindu Thilakarathna</h3>
+      <div class="testimonial-position">Web Developer and project group leader</div>
+      <div class="stars">★★★★★</div>
+      <p>
+        "Raveesha is a talented web developer with excellent leadership and teamwork skills. As our project group leader, he stayed focused, helpful, and well-organized. He clearly guided the team, supported everyone, and kept us on track to meet deadlines. His commitment and smart ideas made the project a success."
+      </p>
+    </div>
+  </div>
+
+  <div id="testimonial-modal-2" class="testimonial-modal-overlay">
+    <div class="testimonial-modal">
+      <span class="close-btn" onclick="closeTestimonialModal()">&times;</span>
+      <img class="profile-img" src="assert/vihaga.png" alt="Vihanga">
+      <h3>Vihanga Rathnayake</h3>
+      <div class="testimonial-position">Project Chair EduAcs 1.0</div>
+      <div class="stars">★★★★★</div>
+      <p>
+        "Raveesha was a key member of the coordinating panel in the EduAcs 1.0 project. He showed strong teamwork, communication, and problem-solving skills. He helped organize project tasks, supported others, and ensured timely work. His dedication and efforts made a big difference in the success of the overall project."
+      </p>
+    </div>
+  </div>
+
+  <div id="testimonial-modal-3" class="testimonial-modal-overlay">
+    <div class="testimonial-modal">
+      <span class="close-btn" onclick="closeTestimonialModal()">&times;</span>
+      <img class="profile-img" src="assert/nuwan.png" alt="Nuwan">
+      <h3>Nuwan Perera</h3>
+      <div class="testimonial-position">Senior Software Engineer</div>
+      <div class="stars">★★★★★</div>
+      <p>
+        "Raveesha is dedicated, creative, and always eager to learn new technologies. He quickly adapts to new challenges and consistently delivers high-quality work. His positive attitude and technical skills make him a valuable team member."
+      </p>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
